@@ -6,7 +6,7 @@ Content-Type: text/xml
     <soapenv:Header/>
     <soapenv:Body>
         <gs:getDayRequest>
-            <gs:name>Martes</gs:name>
+            <gs:name>Lunes</gs:name>
         </gs:getDayRequest>
     </soapenv:Body>
 </soapenv:Envelope>
