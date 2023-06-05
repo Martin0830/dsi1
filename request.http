@@ -1,12 +1,12 @@
-POST http://localhost:8080/ws
+POST http://localhost:8080/ws/wsec1e1
 Content-Type: text/xml
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
                   xmlns:gs="http://spring.io/guides/gs-producing-web-service">
     <soapenv:Header/>
     <soapenv:Body>
-        <gs:getCountryRequest>
+        <gs:getDayRequest>
             <gs:name>Lunes</gs:name>
-        </gs:getCountryRequest>
+        </gs:getDayRequest>
     </soapenv:Body>
 </soapenv:Envelope>
